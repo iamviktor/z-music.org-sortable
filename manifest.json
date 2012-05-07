@@ -1,11 +1,11 @@
 {
   "name": "z-music.org sortable",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "Allows to sort search results by drag-n-drop.",
  "content_scripts" : [
     {
       "matches" : [
-        "http://z-music.org/*"  
+        "http://z-music.org/*"
       ],
       "js" : ["contentscript.js"],
       "run_at" : "document_idle",
